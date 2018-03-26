@@ -4,6 +4,7 @@ return document.querySelector(selector)
 
 function nestedTarget(){
   var node = document.querySelector('#nested')
+  var nextNode = 
   return document.querySelector('#nested div div div .target')
 }
 
