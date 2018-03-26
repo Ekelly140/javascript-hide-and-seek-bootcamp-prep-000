@@ -13,7 +13,12 @@ for (let i = 0; i < ammount; i++) {
   lis[i].innerHTML = (parseInt(lis[i].innerHTML) + n)
 }
 }
-
+/*
 function deepestChild(){
   return document.querySelector("#grand-node div div div div")
+}
+*/
+
+function deepestChild(){
+  const check = document.querySelectorAll("#grand-node")
 }
