@@ -7,7 +7,7 @@ function nestedTarget(){
   var nextNode = node.children[0];
   while (nextNode){
     node = nextNode
-    NextNode = node.children[0];
+    nextNode = node.children[0];
       }
   return node
 }
