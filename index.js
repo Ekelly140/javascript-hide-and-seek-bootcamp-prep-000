@@ -4,8 +4,12 @@ return document.querySelector(selector)
 
 function nestedTarget(){
   var node = document.querySelector('#nested')
-  var nextNode = 
-  return document.querySelector('#nested div div div .target')
+  var nextNode = node.children[0];
+  while (nextNode){
+    node = nextNode
+    NextNode = node.children[0];
+      }
+  return node
 }
 
 function increaseRankBy(n){
