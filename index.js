@@ -22,9 +22,10 @@ function deepestChild(){
 function deepestChild(){
   const check = document.querySelectorAll("#grand-node")
   var nextNode = node.childern[0]
-  var answer = ""
+  var node = ""
   while (nextNode){
-    
+  node = nextNode
+  nextNode = node.children[0]
   }
-  
+  return node
 }
